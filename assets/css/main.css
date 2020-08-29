@@ -36,7 +36,12 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+.headshot img{
+	border-radius: 50%;
+	height:20%;
+	width:20%;
+	margin:0px 50px;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -84,7 +89,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/desert.jpg"), url("../../images/desert.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
