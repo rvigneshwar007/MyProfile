@@ -42,6 +42,12 @@ ol, ul {
 	width:20%;
 	margin:0px 50px;
 }
+.contact-info{
+	display: flex;
+	justify-content: space-between;
+	margin:0px;
+	padding:0px;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -2116,7 +2122,8 @@ input, select, textarea {
 			}
 
 		#banner p {
-			margin: 0;
+			margin: 0 auto;
+			max-width: 650px;
 		}
 
 		#banner footer {
@@ -2357,7 +2364,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: url("images/desert.jpg"), url("../../images/desert.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
